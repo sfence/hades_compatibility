@@ -1,0 +1,7 @@
+# compatibility.conf example
+
+# old commit (version 0.7.0 aviable via Minetest content in Dec 19 2020)
+old_commit = f185358
+
+# new_commit (HEAD for master in Dec 19 2020)
+new_commit = 2f2fb4d
