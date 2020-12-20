@@ -1,5 +1,5 @@
 # Hades compatibility
-Version 1.0
+Version 1.1
 
 A mod for Minetest game Hades Revisited.
 This mod is intended for making Hades Revisited old words compatible with new versions of Hades revisited.
@@ -21,5 +21,6 @@ Compatibility for old words is done by using `minetest.register_alias` function.
 ## Supported version "conversion"
 
 * Old commit f185358 (version 0.7.0 aviable via Minetest content in Dec 19 2020) to new commit 2f2fb4d (HEAD in Dec 19 2020).
+* Old commit f185358 (version 0.7.0 aviable via Minetest content in Dec 19 2020) to new commit 828b9c9 (version 0.8.1 aviable via Minetest content in Dec 20 2020).
 
 
