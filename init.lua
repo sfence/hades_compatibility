@@ -9,7 +9,7 @@ local mod_path = minetest.get_modpath(mod_name);
 dofile(mod_path.."/functions.lua")
 
 local function isFile(filename)
-    file = io.open(filename);
+    local file = io.open(filename);
     if (file==nil) then 
       return false;
     end
