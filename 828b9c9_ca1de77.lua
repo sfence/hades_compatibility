@@ -107,11 +107,11 @@ minetest.register_alias("vines:willow_rotten","hades_vines:willow_rotten");
 minetest.register_alias("windows:windows_birch_wood","windows:windows_cream_wood");
 
 local chest_formspec =
-  "size[8,9]"..
-  "list[current_name;main;0,0;8,4;]"..
-  "list[current_player;main;0,5;8,4;]"..
+  "size[10,9]"..
+  "list[current_name;main;0,0;10,4;]"..
+  "list[current_player;main;0,5;10,4;]"..
   "listring[]"..
-  "background9[8,8;8,9;hades_chests_chestui.png;true;8]"
+  "background9[8,8;10,9;hades_chests_chestui.png;true;8]"
 
 
 minetest.register_lbm(
