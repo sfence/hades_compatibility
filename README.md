@@ -7,7 +7,7 @@ This mod is intended for making Hades Revisited old words compatible with new ve
 ## Licensing
 This mod is free software. It has been licensed under these licenses:
 
-* GNU LGPLv2.1 (or later) for the code
+* GNU LGPLv3 (or later) for the code
 * CC BY-SA 3.0 for the media
 
 ## Use
