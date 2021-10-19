@@ -88,7 +88,7 @@ minetest.register_alias("refruit:flower_olive","hades_refruit:flower_olive");
 minetest.register_alias("refruit:flower_orange","hades_refruit:flower_orange");
 minetest.register_alias("staffgaia:head","hades_gaia:staffgaia_head");
 minetest.register_alias("staffgaia:shaft","hades_gaia:staffgaia_shaft");
-minetest.register_alias("staffgaia:staff","hades_gaia:staff");
+minetest.register_alias("staffgaia:staff","hades_gaia:staffgaia");
 minetest.register_alias("stairs:slab_birch_wood","stairs:slab_cream_wood");
 minetest.register_alias("stairs:stair_birch_wood","stairs:stair_cream_wood");
 minetest.register_alias("stairs:stair_in_birch_wood","stairs:stair_in_cream_wood");

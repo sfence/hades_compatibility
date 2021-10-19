@@ -1,7 +1,9 @@
 
 -- compatibility mod for hades_revisited game
 
-hades_compatibility = {};
+hades_compatibility = {
+  translator = minetest.get_translator("hades_compatibility"),
+};
 
 local mod_name = minetest.get_current_modname();
 local mod_path = minetest.get_modpath(mod_name);
@@ -39,10 +41,13 @@ local function fixCommitName(commit)
     if (commit=="0.11.0") then
       return "ca1de77"
     end
+    if (commit=="0.13.0") then
+      return "88f74ff"
+    end
     return commit
   end
 
-local compatibility_list = minetest.settings:get("hades_compatibility_list")
+local compatibility_list = minetest.settings:get("hades_compatibility_list") or "0.7.0->0.8.1,0.8.1->0.11.0,0.11.0->0.13.0"
 if (compatibility_list~="") then
   local compatibility_pairs = mysplit(compatibility_list,",")
   for _,pair in pairs(compatibility_pairs) do
